@@ -24,9 +24,15 @@ public class PrintTrian {
 				System.out.println();
 			}
 		}
+		/*未输入参数exception*/	
 		catch(UserDefinedException e) {
 			System.out.println("未输入高度参数！");		
 			System.out.println("触发异常为："+e);
+		}
+		/*输入非法参数exception*/
+		catch(NumberFormatException e2) {
+			System.out.println("输入非法高度参数！");
+			System.out.println("触发异常为："+e2);
 		}
 	}
 
