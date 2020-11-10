@@ -11,9 +11,8 @@
 public class UserDefinedException extends Exception {
 
 //	private int detail;
-	public UserDefinedException(){
-		super();
-
+	public UserDefinedException(String detail){
+		super(detail);
 	}
 	
 }
