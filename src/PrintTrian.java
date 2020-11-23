@@ -3,7 +3,7 @@ public class PrintTrian {
 		// TODO Auto-generated method stub
 		int height;
 		if(args.length==0) 
-			 throw new UserDefinedException("未输入高低参数！");
+			 throw new UserDefinedException("未输入高度参数！");
 		height=Integer.parseInt(args[0]);
 		return height;
 	}
